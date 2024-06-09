@@ -1,0 +1,2 @@
+# AngularPato
+proyecto de angular
