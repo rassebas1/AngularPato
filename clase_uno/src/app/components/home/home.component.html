@@ -1,1 +1,30 @@
-<p>{{HomeTitle}}</p>
+<section class="home-container">
+  <header class="home-header-container">
+    <div class="header-logo"><img src="	https://pokeapi.co/static/pokeapi_256.3fa72200.png" alt=""></div>
+    <p class="home-name">{{ HomeTitle }}</p>
+    <ul class="header-link-list">
+      <li class="header-list-item">
+        <a class="link-type-element" href="{{ ImplementedComponents[0].path }}"
+          >Home</a
+        >
+      </li>
+      <li class="header-list-item">
+        <a class="link-type-element" href="{{ ImplementedComponents[1].path }}"
+          >One</a
+        >
+      </li>
+      <li class="header-list-item">
+        <a class="link-type-element" href="{{ ImplementedComponents[2].path }}"
+          >Two</a
+        >
+      </li>
+    </ul>
+  </header>
+  <section class="landing-section">
+    This wil be the new section for introducing our new pokeapi
+  </section>
+  <footer class="home-footer-container">
+    <p>Footer</p>
+    <p>{{ Creators }}</p>
+  </footer>
+</section>
